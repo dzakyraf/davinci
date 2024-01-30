@@ -1,6 +1,6 @@
 name: davinci
 description: A package to convert any widget to an image which can be saved locally or can be shared to other apps and chats.
-version: 2.1.1
+version: 2.1.2
 homepage: https://github.com/Imgkl/davinci
 
 environment:
@@ -12,7 +12,7 @@ dependencies:
     sdk: flutter
   path_provider: ^2.0.15
   open_filex: ^4.3.2
-  gallery_saver: ^2.3.2
+  gal: ^2.2.3
 
 dev_dependencies:
   flutter_test:

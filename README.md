@@ -3,6 +3,8 @@
 
 
 <br>
+Forked to Update Dependency :
+
 A package to convert any widget to an image which can be saved locally or can be shared to other apps and chats.
 
 
