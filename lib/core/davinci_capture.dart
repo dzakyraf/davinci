@@ -85,7 +85,9 @@ class DavinciCapture {
         child: RenderPositionedBox(
             alignment: Alignment.center, child: repaintBoundary),
         configuration: ViewConfiguration(
-          size: logicalSize,
+          physicalConstraints: BoxConstraints.tight(logicalSize) *
+              View.of(context).devicePixelRatio,
+          logicalConstraints: BoxConstraints.tight(logicalSize),
           devicePixelRatio: 1.0,
         ),
       );
